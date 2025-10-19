@@ -18,11 +18,10 @@ logs/
 *.log
 
 # Artifacts / output files
-artifacts/
-data_ingestion/data.zip
-*.h5
-*.pkl
-*.joblib
+# Ignore artifacts and outputs
+# Ignore data ingestion artifacts
+artifacts/data_ingestion/
+
 
 # OS files
 .DS_Store
