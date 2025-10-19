@@ -1,0 +1,9 @@
+data:
+  train_ratio: 0.8
+  random_state: 42
+
+model:
+  name: cnn_model
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001

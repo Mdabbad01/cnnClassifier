@@ -2,7 +2,7 @@ import os
 from box.exceptions import BoxValueError
 from box import ConfigBox
 import yaml
-from cnnClassifier import logger
+from src.cnnClassifier import logger
 import json
 import joblib
 from ensure import ensure_annotations
@@ -136,3 +136,14 @@ def encodeImageIntoBase64(croppedImagePath: str) -> str:
     """Encode image file into base64 string."""
     with open(croppedImagePath, "rb") as f:
         return base64.b64encode(f.read()).decode('utf-8')
+
+
+if __name__ == "__main__":
+    from pathlib import Path
+    test_yaml = Path("config/config.yaml")
+
+    try:
+        cfg = read_yaml(test_yaml)
+        print(cfg)
+    except Exception as e:
+        print(f"Error: {e}")

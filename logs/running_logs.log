@@ -1,1 +1,83 @@
 [2025-10-19 22:06:00,190: INFO:main:welcome to our custom log ]
+[2025-10-19 23:37:48,864: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-19 23:37:48,875: ERROR:main:mapping values are not allowed here
+  in "config\config.yaml", line 3, column 15]
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    obj.main()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\config\configuration.py", line 13, in __init__
+    self.config = read_yaml(config_filepath)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\utils\common.py", line 38, in read_yaml
+    raise e
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\utils\common.py", line 30, in read_yaml
+    content = yaml.safe_load(yaml_file)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\yaml\composer.py", line 58, in compose_document
+    self.get_event()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\yaml\parser.py", line 118, in get_event
+    self.current_event = self.state()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\yaml\parser.py", line 193, in parse_document_end
+    token = self.peek_token()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\yaml\scanner.py", line 129, in peek_token
+    self.fetch_more_tokens()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\yaml\scanner.py", line 223, in fetch_more_tokens
+    return self.fetch_value()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\yaml\scanner.py", line 577, in fetch_value
+    raise ScannerError(None, None,
+yaml.scanner.ScannerError: mapping values are not allowed here
+  in "config\config.yaml", line 3, column 15
+[2025-10-19 23:39:56,167: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-19 23:39:56,181: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-19 23:39:56,181: ERROR:main:YAML file: params.yaml is empty]
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    obj.main()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\config\configuration.py", line 14, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\utils\common.py", line 38, in read_yaml
+    raise e
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\utils\common.py", line 32, in read_yaml
+    raise ValueError(f"YAML file: {path_to_yaml} is empty")
+ValueError: YAML file: params.yaml is empty
+[2025-10-19 23:43:25,373: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-19 23:43:25,383: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-19 23:43:25,383: ERROR:main:[Errno 2] No such file or directory: 'params.yaml']
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+    obj.main()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    config = ConfigurationManager()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\config\configuration.py", line 14, in __init__
+    self.params = read_yaml(params_filepath)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\ensure\main.py", line 872, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\utils\common.py", line 38, in read_yaml
+    raise e
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\utils\common.py", line 29, in read_yaml
+    with open(path_to_yaml, 'r') as yaml_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'params.yaml'
+[2025-10-19 23:46:36,745: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-19 23:46:36,746: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-19 23:46:36,748: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-19 23:46:36,749: INFO:common:Directory created at: artifacts_root]
+[2025-10-19 23:46:36,750: INFO:common:Directory created at: artifacts/data_ingestion]
+[2025-10-19 23:46:36,750: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-19 23:46:55,382: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-19 23:46:55,928: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
