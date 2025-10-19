@@ -1,2 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
 venv/
+env/
+*.env
+.kidney/   # if you want to ignore your conda env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Artifacts / output files
 artifacts/
+data_ingestion/data.zip
+*.h5
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Config / secrets (if you have API keys etc.)
+*.yaml
+*.json
