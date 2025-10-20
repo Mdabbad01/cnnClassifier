@@ -111,3 +111,32 @@ x==========x]
 [2025-10-20 23:25:59,661: INFO:main:>>>>> stage prepare base model completed <<<<<<<
 
 x============x]
+[2025-10-20 23:44:26,635: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-20 23:44:26,668: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-20 23:44:26,671: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-20 23:44:26,674: INFO:common:Directory created at: artifacts_root]
+[2025-10-20 23:44:26,674: INFO:common:Directory created at: artifacts/data_ingestion]
+[2025-10-20 23:44:26,674: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-20 23:44:45,632: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-20 23:44:46,316: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-20 23:44:46,316: INFO:main:*********************]
+[2025-10-20 23:44:46,316: INFO:main:>>>>>> stage prepare base model started <<<<<]
+[2025-10-20 23:44:46,319: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-20 23:44:46,321: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-20 23:44:46,321: INFO:common:Directory created at: artifacts_root]
+[2025-10-20 23:44:46,322: INFO:common:Directory created at: artifacts/prepare_base_model]
+[2025-10-20 23:44:47,008: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-20 23:44:47,351: INFO:main:>>>>> stage prepare base model completed <<<<<<<
+
+x============x]
+[2025-10-20 23:44:47,352: INFO:main:*******************]
+[2025-10-20 23:44:47,352: INFO:main:>>>>>> stage Training started <<<<<<]
+[2025-10-20 23:44:47,355: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-20 23:44:47,357: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-20 23:44:47,357: INFO:common:Directory created at: artifacts_root]
+[2025-10-20 23:44:47,359: INFO:common:Directory created at: artifacts\training]
+[2025-10-20 23:45:33,780: INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
