@@ -21,6 +21,7 @@ logs/
 # Ignore artifacts and outputs
 # Ignore data ingestion artifacts
 artifacts/data_ingestion/
+artifacts/
 
 
 # OS files
