@@ -81,3 +81,13 @@ FileNotFoundError: [Errno 2] No such file or directory: 'params.yaml'
 [2025-10-19 23:46:55,928: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-10-20 22:51:17,317: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-20 22:51:17,329: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-20 22:51:17,350: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-20 22:51:17,350: INFO:common:Directory created at: artifacts_root]
+[2025-10-20 22:51:17,350: INFO:common:Directory created at: artifacts/data_ingestion]
+[2025-10-20 22:51:17,350: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-20 22:51:36,308: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-20 22:51:37,009: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
