@@ -29,5 +29,5 @@ artifacts/
 Thumbs.db
 
 # Config / secrets (if you have API keys etc.)
-*.yaml
+
 *.json
