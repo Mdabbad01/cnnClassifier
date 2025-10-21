@@ -257,3 +257,284 @@ x==========x]
 [2025-10-21 17:12:31,135: INFO:main:>>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-10-21 19:02:32,343: INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.145:8080]
+[2025-10-21 19:02:32,343: INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2025-10-21 19:03:09,141: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:03:09] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:03:09,401: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:03:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-10-21 19:03:18,824: ERROR:_internal:192.168.29.145 - - [21/Oct/2025 19:03:18] code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sJJ\x00\x00DÍ\x00\x05\x00\x03\x02h2\x003\x04ï\x04í')]
+[2025-10-21 19:03:18,826: INFO:_internal:192.168.29.145 - - [21/Oct/2025 19:03:18] "[35m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03@³ ¦)ü]\x8aéq\x96©\x83\x82Óğxhu\x81\x1d!à\x9eì\x94Vue\x89°\x98 ±¾ô&àC\x13(\x00p.öK1JÙ\x1f²ğµI\x1c/\x9bó³Ğ0ğ/¼y\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sJJ\x00\x00DÍ\x00\x05\x00\x03\x02h2\x003\x04ï\x04í[0m" HTTPStatus.BAD_REQUEST -]
+[2025-10-21 19:03:18,831: ERROR:_internal:192.168.29.145 - - [21/Oct/2025 19:03:18] code 400, message Bad request version ('"N°\x01')]
+[2025-10-21 19:03:18,832: INFO:_internal:192.168.29.145 - - [21/Oct/2025 19:03:18] "[35m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x030\x01Y\x9e\x1aÔkjb¬Wn\x10C\x9dc\x9b\x98Á\x03\x02é\x97A£g\x92ÍØ©8\x92 \x1e¬Şu\x0b\x1cãN\x10{¢ÖÄÍN¾±Ò\x0e\x09"N°\x01[0m" HTTPStatus.BAD_REQUEST -]
+[2025-10-21 19:03:21,734: INFO:_internal:192.168.29.145 - - [21/Oct/2025 19:03:21] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:03:21,887: INFO:_internal:192.168.29.145 - - [21/Oct/2025 19:03:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-10-21 19:03:37,475: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:03:37] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:04:46,325: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:04:46] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:04:46,476: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:04:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-10-21 19:05:08,843: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:05:08] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:05:17,001: INFO:_internal:192.168.29.145 - - [21/Oct/2025 19:05:17] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:12:20,043: INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.145:8080]
+[2025-10-21 19:12:20,043: INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2025-10-21 19:12:23,296: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:12:23] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:15:22,494: INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.145:8080]
+[2025-10-21 19:15:22,494: INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2025-10-21 19:15:25,873: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:15:25] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:15:39,323: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:15:39,331: ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\pipeline\prediction.py", line 17, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2025-10-21 19:15:39,430: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:15:39] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-10-21 19:17:20,524: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:17:20,524: ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\pipeline\prediction.py", line 17, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2025-10-21 19:17:20,528: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:17:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-10-21 19:17:25,286: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:17:25,286: ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\pipeline\prediction.py", line 17, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2025-10-21 19:17:25,289: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:17:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-10-21 19:17:30,465: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:17:30,465: ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\pipeline\prediction.py", line 17, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2025-10-21 19:17:30,467: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:17:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-10-21 19:17:52,068: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:17:52] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:18:01,817: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:18:01,818: ERROR:app:Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\src\cnnClassifier\pipeline\prediction.py", line 17, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Md Abbad\OneDrive\Desktop\cnnClassifier\venv\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2025-10-21 19:18:01,820: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:18:01] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-10-21 19:22:45,671: INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.145:8080]
+[2025-10-21 19:22:45,671: INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2025-10-21 19:22:49,710: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:22:49] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:22:56,943: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:22:56,946: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:22:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-10-21 19:23:56,034: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-21 19:23:56,037: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-21 19:23:56,040: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-21 19:23:56,042: INFO:common:Directory created at: artifacts_root]
+[2025-10-21 19:23:56,042: INFO:common:Directory created at: artifacts/data_ingestion]
+[2025-10-21 19:23:56,043: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-21 19:24:14,583: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-21 19:24:15,162: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-21 19:24:15,162: INFO:main:*********************]
+[2025-10-21 19:24:15,162: INFO:main:>>>>>> stage prepare base model started <<<<<]
+[2025-10-21 19:24:15,162: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-21 19:24:15,162: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-21 19:24:15,162: INFO:common:Directory created at: artifacts_root]
+[2025-10-21 19:24:15,162: INFO:common:Directory created at: artifacts/prepare_base_model]
+[2025-10-21 19:24:15,714: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-21 19:24:15,990: INFO:main:>>>>> stage prepare base model completed <<<<<<<
+
+x============x]
+[2025-10-21 19:24:15,991: INFO:main:*******************]
+[2025-10-21 19:24:15,991: INFO:main:>>>>>> stage Training started <<<<<<]
+[2025-10-21 19:24:15,994: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-21 19:24:15,996: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-21 19:24:15,997: INFO:common:Directory created at: artifacts_root]
+[2025-10-21 19:24:15,998: INFO:common:Directory created at: artifacts\training]
+[2025-10-21 19:25:01,739: INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-21 19:25:01,739: INFO:main:*******************]
+[2025-10-21 19:25:01,739: INFO:main:>>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-21 19:25:01,742: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-21 19:25:01,744: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-21 19:25:01,744: INFO:common:Directory created at: artifacts_root]
+[2025-10-21 19:25:16,116: INFO:common:JSON file saved at: scores.json]
+[2025-10-21 19:25:16,117: INFO:common:JSON file saved at: scores.json]
+[2025-10-21 19:25:16,117: INFO:main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-21 19:25:34,209: INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.145:8080]
+[2025-10-21 19:25:34,209: INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2025-10-21 19:25:38,541: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:25:38] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:25:44,886: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:25:44,891: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:25:44] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2025-10-21 19:31:35,628: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-10-21 19:31:35,631: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-21 19:31:35,633: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-21 19:31:35,634: INFO:common:Directory created at: artifacts_root]
+[2025-10-21 19:31:35,635: INFO:common:Directory created at: artifacts/data_ingestion]
+[2025-10-21 19:31:35,635: INFO:data_ingestion:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-21 19:31:54,887: INFO:data_ingestion:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-10-21 19:31:55,552: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-10-21 19:31:55,554: INFO:main:*********************]
+[2025-10-21 19:31:55,554: INFO:main:>>>>>> stage prepare base model started <<<<<]
+[2025-10-21 19:31:55,557: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-21 19:31:55,560: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-21 19:31:55,561: INFO:common:Directory created at: artifacts_root]
+[2025-10-21 19:31:55,561: INFO:common:Directory created at: artifacts/prepare_base_model]
+[2025-10-21 19:31:56,201: WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-10-21 19:31:56,529: INFO:main:>>>>> stage prepare base model completed <<<<<<<
+
+x============x]
+[2025-10-21 19:31:56,529: INFO:main:*******************]
+[2025-10-21 19:31:56,529: INFO:main:>>>>>> stage Training started <<<<<<]
+[2025-10-21 19:31:56,532: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-21 19:31:56,534: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-21 19:31:56,534: INFO:common:Directory created at: artifacts_root]
+[2025-10-21 19:31:56,534: INFO:common:Directory created at: artifacts\training]
+[2025-10-21 19:32:47,314: INFO:main:>>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-10-21 19:32:47,315: INFO:main:*******************]
+[2025-10-21 19:32:47,315: INFO:main:>>>>>> stage Evaluation stage started <<<<<<]
+[2025-10-21 19:32:47,319: INFO:common:YAML file: config\config.yaml loaded successfully]
+[2025-10-21 19:32:47,321: INFO:common:YAML file: params.yaml loaded successfully]
+[2025-10-21 19:32:47,322: INFO:common:Directory created at: artifacts_root]
+[2025-10-21 19:33:02,981: INFO:common:JSON file saved at: scores.json]
+[2025-10-21 19:33:02,982: INFO:common:JSON file saved at: scores.json]
+[2025-10-21 19:33:02,982: INFO:main:>>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-10-21 19:42:15,670: INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.145:8080]
+[2025-10-21 19:42:15,672: INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2025-10-21 19:42:15,675: INFO:_internal: * Restarting with stat]
+[2025-10-21 19:42:21,101: WARNING:_internal: * Debugger is active!]
+[2025-10-21 19:42:21,123: INFO:_internal: * Debugger PIN: 244-378-860]
+[2025-10-21 19:42:21,511: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:42:21] "GET / HTTP/1.1" 200 -]
+[2025-10-21 19:42:28,403: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:42:28,997: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:42:28] "POST /predict HTTP/1.1" 200 -]
+[2025-10-21 19:42:45,301: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:42:45,480: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:42:45] "POST /predict HTTP/1.1" 200 -]
+[2025-10-21 19:43:24,034: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:43:24,214: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:43:24] "POST /predict HTTP/1.1" 200 -]
+[2025-10-21 19:43:26,633: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:43:26,811: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:43:26] "POST /predict HTTP/1.1" 200 -]
+[2025-10-21 19:43:27,851: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:43:28,018: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:43:28] "POST /predict HTTP/1.1" 200 -]
+[2025-10-21 19:43:34,222: INFO:common:Decoded image saved at: inputImage.jpg]
+[2025-10-21 19:43:34,387: INFO:_internal:127.0.0.1 - - [21/Oct/2025 19:43:34] "POST /predict HTTP/1.1" 200 -]
