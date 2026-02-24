@@ -1,72 +1,76 @@
-CNN-Based Kidney CT Scan Classification
-Overview
+# CNN-Based Kidney CT Scan Classification
 
-This project implements an end-to-end deep learning pipeline for classifying kidney CT scan images into Normal and Tumor categories. The system is built using a modular MLOps-oriented architecture with configuration-driven components and experiment tracking.
+## Overview
 
-Architecture
+This project implements an end-to-end deep learning pipeline for classifying kidney CT scan images into Normal and Tumor categories.
 
-The project follows a structured pipeline approach:
+The system is designed using a modular architecture with clearly separated components for data ingestion, base model preparation, model training, evaluation, and prediction. Configuration files are used to manage parameters and ensure reproducibility.
 
-Data Ingestion
+## Architecture
 
-Base Model Preparation
+The workflow follows a structured pipeline:
 
-Model Training
+1. Data Ingestion  
+2. Base Model Preparation  
+3. Model Training  
+4. Model Evaluation (integrated with MLflow)  
+5. Model Serving through Flask API  
 
-Model Evaluation with MLflow
+All core logic is organized inside a reusable Python package located in:
 
-Model Serving via Flask API
+src/cnnClassifier/
 
-The implementation is organized under a reusable Python package (src/cnnClassifier) with clearly separated components and configuration management.
+## Dataset
 
-Dataset
+The dataset consists of kidney CT scan images categorized into:
 
-The dataset contains kidney CT scan images categorized into:
+- Normal  
+- Tumor  
 
-Normal
+Images are processed during ingestion and passed through the training pipeline.
 
-Tumor
+## Key Features
 
-Images are processed during the ingestion stage and used for model training and evaluation.
+- Modular component-based structure  
+- YAML-driven configuration management  
+- MLflow experiment tracking  
+- DVC pipeline support  
+- Structured logging and exception handling  
+- Docker support  
+- Flask-based prediction interface  
 
-Key Features
+## Tech Stack
 
-Modular component-based architecture
+- Python  
+- TensorFlow / Keras  
+- MLflow  
+- DVC  
+- Flask  
+- Docker  
+- YAML configuration  
 
-YAML-driven configuration
+## How to Run
 
-MLflow experiment tracking
+Install dependencies:
 
-DVC pipeline integration
+pip install -r requirements.txt
 
-Logging and exception handling
+Run the training pipeline:
 
-Docker support
+python main.py
 
-Flask-based prediction API
+Start the Flask application:
 
-Tech Stack
+python app.py
 
-Python
+## Project Structure
 
-TensorFlow / Keras
-
-MLflow
-
-DVC
-
-Flask
-
-Docker
-
-YAML configuration
-
-How to Run
-
-Install dependencies
-
-Configure parameters in config.yaml and params.yaml
-
-Execute pipeline through main.py
-
-Run Flask app using app.py
+├── src/
+│   └── cnnClassifier/
+├── config/
+├── artifacts/
+├── research/
+├── app.py
+├── main.py
+├── Dockerfile
+├── dvc.yaml
