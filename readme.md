@@ -1,40 +1,72 @@
-🧠 CNN Image Classifier
+CNN-Based Kidney CT Scan Classification
+Overview
 
-A deep learning project to build, train, and deploy a Convolutional Neural Network (CNN) for image classification.
-This project is modular, production-ready, and includes experiment tracking, data versioning, and deployment setup.
+This project implements an end-to-end deep learning pipeline for classifying kidney CT scan images into Normal and Tumor categories. The system is built using a modular MLOps-oriented architecture with configuration-driven components and experiment tracking.
 
-🚀 Features
+Architecture
 
-✅ End-to-end CNN pipeline
-✅ Modular Python package structure (src/cnnClassifier/)
-✅ YAML-based configuration system
-✅ Logging and exception handling
-✅ Experiment tracking with MLflow
-✅ Data versioning using DVC
-✅ Flask API for model prediction
-✅ Ready for deployment on AWS / Render / GCP
+The project follows a structured pipeline approach:
 
-📁 Project Structure
-cnnClassifier/
-│
-├── .github/workflows/        <- CI/CD workflows
-├── config/                   <- Config files (YAML)
-├── research/                 <- Jupyter notebooks / experiments
-├── logs/                     <- Log files
-├── src/cnnClassifier/        <- Main package
-│   ├── __init__.py
-│   ├── components/           <- Model components (data loader, model trainer)
-│   ├── config/               <- Config management scripts
-│   ├── constants/            <- Project constants
-│   ├── entity/               <- Data entities for type safety
-│   ├── pipeline/             <- Training/inference pipelines
-│   ├── utils/                <- Utility functions (common.py, etc.)
-│   └── ...
-│
-├── templates/                <- HTML templates for Flask app
-├── main.py                   <- Entry point
-├── setup.py                  <- Package setup file
-├── requirements.txt           <- Dependencies
-├── config.yaml               <- Main configuration file
-├── dvc.yaml                   <- DVC pipeline configuration
-└── README.md
+Data Ingestion
+
+Base Model Preparation
+
+Model Training
+
+Model Evaluation with MLflow
+
+Model Serving via Flask API
+
+The implementation is organized under a reusable Python package (src/cnnClassifier) with clearly separated components and configuration management.
+
+Dataset
+
+The dataset contains kidney CT scan images categorized into:
+
+Normal
+
+Tumor
+
+Images are processed during the ingestion stage and used for model training and evaluation.
+
+Key Features
+
+Modular component-based architecture
+
+YAML-driven configuration
+
+MLflow experiment tracking
+
+DVC pipeline integration
+
+Logging and exception handling
+
+Docker support
+
+Flask-based prediction API
+
+Tech Stack
+
+Python
+
+TensorFlow / Keras
+
+MLflow
+
+DVC
+
+Flask
+
+Docker
+
+YAML configuration
+
+How to Run
+
+Install dependencies
+
+Configure parameters in config.yaml and params.yaml
+
+Execute pipeline through main.py
+
+Run Flask app using app.py
